@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        imageArray = arrayListOf(imageView,imageView1,imageView2,imageView3,imageView4,imageView5,imageView6,imageView7,imageView8,imageView9,imageView10,imageView11,imageView12,imageView13,imageView14,imageView15)
+        imageArray = arrayListOf(imageView,imageView1,imageView2,imageView3,imageView4,imageView5,imageView6,imageView7,imageView8,imageView9,imageView10,imageView11,imageView12,imageView13,imageView14,imageView15,imageView16,imageView17,imageView18,imageView19,imageView20)
 
 
         hidekenny()
@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
 
-                val index = Random.nextInt(0,14)
+                val index = Random.nextInt(0,19)
                 imageArray[index].visibility = View.VISIBLE
 
                 handler.postDelayed(runnable,800)
